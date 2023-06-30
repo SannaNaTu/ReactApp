@@ -4,11 +4,11 @@ import { SafeAreaView, View } from "react-native";
 import { Hellou } from "../components";
 
 const Home = () => {
-return (
-    <SafeAreaView >
+  return (
+    <SafeAreaView>
       <View>
-          <Hellou/>
-          </View>
+        <Hellou />
+      </View>
     </SafeAreaView>
   );
 };

@@ -14,7 +14,7 @@ const ToDoList = () => {
   
     return (
         <View>
-      <View>
+      <View> 
         <Text>info</Text>
       </View>
       </View>
