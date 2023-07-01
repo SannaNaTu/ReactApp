@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { useState } from "react";
 import { Button, Image, StyleSheet, View, FlatList } from "react-native";
-
+import styles from "./dizegame.style";
 const RandomNumber = () => {
   return Math.ceil(Math.random() * 6);
 };
@@ -58,19 +58,3 @@ export default function Testi2() {
     </View>
   );
 }
-7;
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#228C22",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  dize: {
-    padding: 10,
-  },
-
-  buttonContainer: {
-    marginTop: 10,
-  },
-});

@@ -3,7 +3,6 @@ import { View, Text, TouchableOpacity, FlatList } from "react-native";
 import { useRouter } from "expo-router";
 import { style, Sizes } from "../../constants";
 import styles from "./hellou.style";
-import { StyleSheet } from "react-native";
 
 const types = [
   { key: 0, navigationTitle: "Info", navigationName: "testi/testi" },

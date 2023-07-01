@@ -1,4 +1,3 @@
+import { Colors, Sizes } from "./style";
 
-import { Colors, Sizes, Font} from "./style";
-
-export {Colors, Sizes, Font };
+export { Colors, Sizes };
