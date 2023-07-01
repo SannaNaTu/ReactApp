@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   title: {
+    fontSize: 25,
     color: Colors.primary,
     marginTop: 2,
     textAlign: "center",

@@ -1,4 +1,5 @@
-import { useState } from "react";import {
+import { useState } from "react";
+import {
   View,
   Text,
   TextInput,
@@ -9,15 +10,14 @@ import { useState } from "react";import {
 import { useRouter } from "expo-router";
 
 const ToDoList = () => {
+  const router = useRouter();
 
-    const router = useRouter();
-  
-    return (
-        <View>
-      <View> 
-        <Text>info</Text>
+  return (
+    <View>
+      <View>
+        <Text>Tämä on vain testisivu reititystä varten.</Text>
       </View>
-      </View>
-      )
-    }
-      export default ToDoList
+    </View>
+  );
+};
+export default ToDoList;
